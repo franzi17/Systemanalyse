@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T13:53:42.058Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" version="24.3.1" etag="asys_6z3_cTV_HYtTUle" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-07T14:20:19.043Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="qRaJiIR-2CwnWoBCtbQz" version="24.3.1" type="github">
   <diagram name="Seite-1" id="ktSvDrBHr7tRRCvt3jVQ">
-    <mxGraphModel>
+    <mxGraphModel dx="995" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rz7mVISBMkZz6Zhys2nE-13" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="150" width="200" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="rz7mVISBMkZz6Zhys2nE-1" value="Einkaufsliste_Uebersicht" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=left;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="380" y="80" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rz7mVISBMkZz6Zhys2nE-2" value="&lt;span style=&quot;background-color: initial;&quot;&gt;beinhaltet die Übersicht über die Artikel, welche eingekauft werden sollen, sowie ein Button zum hinzufüge eines neuen Artikels&lt;/span&gt;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;horizontal=1;" vertex="1" parent="rz7mVISBMkZz6Zhys2nE-1">
+          <mxGeometry y="26" width="140" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="rz7mVISBMkZz6Zhys2nE-5" value="Einkaufsliste_Hinzufuegen" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="640" y="320" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rz7mVISBMkZz6Zhys2nE-6" value="ein Textfeld, um den neuen Artikel einzfügen und einen Button um den Artikel zu speichern" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rz7mVISBMkZz6Zhys2nE-5">
+          <mxGeometry y="26" width="140" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="rz7mVISBMkZz6Zhys2nE-9" value="Einkaufsliste_todoModel" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="70" y="260" width="140" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="rz7mVISBMkZz6Zhys2nE-10" value="+ field: type" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rz7mVISBMkZz6Zhys2nE-9">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rz7mVISBMkZz6Zhys2nE-11" value="+ field: type" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rz7mVISBMkZz6Zhys2nE-9">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rz7mVISBMkZz6Zhys2nE-12" value="+ field: type" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rz7mVISBMkZz6Zhys2nE-9">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rz7mVISBMkZz6Zhys2nE-14" value="Adapter" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="640" y="160" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rz7mVISBMkZz6Zhys2nE-15" value="Um die Daten aus dem todoModel verbinden zu können, um die Daten dynamisch anzeigen zu können" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rz7mVISBMkZz6Zhys2nE-14">
+          <mxGeometry y="26" width="140" height="84" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
